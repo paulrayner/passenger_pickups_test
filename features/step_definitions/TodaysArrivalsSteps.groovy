@@ -8,7 +8,7 @@ Given(~/^the following arrivals:/) { cuke4duke.Table arrivalsTable
 }
 
 When(~/^I go to Today's Arrivals$/) { ->
-	browser.get("http://localhost:3000/")
+	browser.get("http://passenger-pickups.heroku.com/")
 }
 
 Then(~/^I should be on the Today's Arrivals page$/) { ->
