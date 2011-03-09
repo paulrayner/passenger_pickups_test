@@ -10,7 +10,7 @@ Feature: Today's Arrivals
       | Richard | UA 6858 | ABQ  | today    | 2:41pm |
       | Jane    | UA 828  | BOI  | tomorrow | 3:54pm |
       | Paul    | UA 6175 | BIS  | today    | 5:50pm |
-    When I view today's arrivals
+    When I go to Today's Arrivals
     Then I should see the following:
       | Name    | Flight  | From | Scheduled Time | Status  | Actual Time |
       | Richard | UA 6858 | ABQ  | 2:41pm         | On Time | 2:41pm      |
